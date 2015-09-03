@@ -1,43 +1,38 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+.buildpath
+.idea*
+.metadata*
+.gitignore
+.project
+.rspec
+.git
+Insight/.project
 
-# Folder config file
-Desktop.ini
+#ignore Gemfiles
+Gemfile*
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+#ignore CSV files
+*.csv
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+#ignore data files
+data/
 
-# Windows shortcuts
-*.lnk
+#ignore rakefile
+Rakefile
 
-# =========================
-# Operating System Files
-# =========================
+#ignore downloads
+downloads/
 
-# OSX
-# =========================
+#ignore output
+output/
 
-.DS_Store
-.AppleDouble
-.LSOverride
+#ignore reports
+reports/
 
-# Thumbnails
-._*
+#ignore screenshots
+screenshots/
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+#ignore testbed files
+conf/test_bed/
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+#ignore SPEC files
+SPEC*
